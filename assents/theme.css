@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Unbounded:wght@200..900&display=swap');
+
+:root{
+    --roxo-destaque : #9747FF;
+    --roxo-hover    : #8233E8;
+    --off-white     : #ffffff;
+    --grafite       : #232323;
+    --fundo-dark    : #0E1014;
+    --fundo-light   : #f5f5f5;
+    --fonte         : "Poppins", sans-serif;
+    --fonte2        : "Unbounded", sans-serif;
+    --raio          : 36px;
+
+}
+
+/* o regular e 400 e o bold e 700 */

@@ -1,0 +1,70 @@
+    @import              "reset.css";
+    @import              "theme.css";
+
+body {
+    
+    max-width           : 100% !important;
+    overflow-x          : hidden !important;
+    background-color    : var(--fundo-dark);
+}
+
+.header{
+    display             : flex;
+    justify-content     : space-around;
+    padding-top         : 70px;
+}
+
+.titulo{
+    font-size           : 64px;
+    color               : var(--off-white);
+    font-family         : var(--fonte2);
+    text-align          : center;
+    width               : 100%;
+    justify-content     : center;
+
+}
+
+.titulo__roxo{
+    color               : var(--roxo-destaque);
+}
+
+.container__paragrafo{
+    display             : flex;
+    justify-content     : center;
+    padding-top         : 24px;
+    
+}
+
+.paragrafo{
+    display             : flex;
+    font-size           : 24px;
+    color               : var(--off-white);
+    font-family         : var(--fonte);
+    font-weight         : 400;
+    width               : 800px;
+    text-align          : center;
+    justify-content     : center;
+}
+
+.container__botao{
+    display             : flex;
+    justify-content     : center;
+    padding-top         : 64px;
+}
+
+.botao__roxo{
+    font-size           : 24px;
+    background-color    : var(--roxo-destaque);
+    color               : var(--off-white);
+    font-family         : var(--fonte);
+    font-weight         : 600;
+    padding             : 14px 48px;
+    border-radius       : var(--raio);
+}
+
+.imagem__celular{
+    display             : flex;
+    justify-content     : center;
+    padding-top         : 40px;
+}
+
